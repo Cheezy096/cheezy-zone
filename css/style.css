@@ -1,0 +1,80 @@
+body {
+    background-image: url('../images/bg.gif');
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+#followme {
+    position: absolute;
+    z-index: -4;
+}
+
+.hideme {
+    display: none;
+}
+
+a {
+    border-color: orange;
+    border-style: groove;
+    color: rgb(73, 100, 20);
+    background-color: rgb(0, 2, 92);
+}
+
+a:hover {
+    color: orange;
+    border-color: rgb(73, 100, 20);
+}
+
+.space {
+    margin-top: 20px;
+}
+
+.rainbow {
+    animation: rainbow 2s infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        color: orange;
+    }
+    10% {
+        color: red;
+    }
+    20% {
+        color: rgb(104, 255, 117);
+    }
+    30% {
+        color: blue;
+    }
+    40% {
+        color: rgb(255, 131, 214);
+    }
+    50% {
+        color: purple;
+    }
+    60% {
+        color: greenyellow;
+    }
+    70% {
+        color: rgb(0, 241, 109);
+    }
+    80% {
+        color: gold;
+    }
+    90% {
+        color: fuchsia;
+    }
+    100% {
+        color: orange;
+    }
+}
